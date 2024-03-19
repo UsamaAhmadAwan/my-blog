@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+
+ @import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: black !important;
+    
+}
+
+.nav-link {
+
+    color: white !important;
+
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+
+.jumbotron {
+    background-image: url('patrick-fore-0gkw_9fy0eQ-unsplash.jpg'); /* Replace 'your-image.jpg' with the actual image file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set the text color to ensure visibility on the background */
+    height: 425px;
+  }
+
+  html,
+  body {
+height: 100;
+  }
+
+  #page-content {
+flex: 1 0 auto;
+background-color: lightgray;
+  }
+
+  #sticky-footer {
+    flex-shrink: none;
+  }
